@@ -64,7 +64,7 @@ app.put('/:userID/:title/:body', (req, res) => {
         "id": Object.keys(data.posts).length+1,
         "title": title,
         "body": body,
-        "user_id": userID,//"2023-03-05T20:51:42.516Z"
+        "user_id": userID,
         "last_update": newDate.slice(0,10) + newDate.slice(11,19)
     };
 
