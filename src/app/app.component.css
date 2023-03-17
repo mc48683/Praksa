@@ -1,0 +1,91 @@
+.app {
+    width: 100%;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.title {
+    border-bottom: 1px solid rgb(222, 222, 222);
+    background-color: white;
+    width: 100%;
+    padding: 1rem 0 0.5rem 10rem;
+}
+
+.container {
+    margin-top:2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+
+.user {
+    /* background-color: rgb(246, 246, 246); */
+    margin:1.5rem;
+    border-radius: 12px;
+    padding:20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.name {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    text-align: center;
+    height: 60px;
+}
+
+
+.post {
+    background-color: rgb(235, 235, 235);
+    padding:10px 0 0 15px;
+    margin: 1rem 0 0;
+    border-radius: 5px;
+    display: flex;
+}
+
+i {
+    color: rgb(169, 169, 169);
+}
+
+.userName {
+    margin: 0;
+}
+
+.btnEdit {
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+}
+
+.last_update {
+    font-size: 15px;
+}
+
+.fa-user {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom:5px;
+}
